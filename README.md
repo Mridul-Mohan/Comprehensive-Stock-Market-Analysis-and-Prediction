@@ -9,24 +9,24 @@ This project explores the dynamic nature of stock market data using Exploratory 
 * Data Visualization: Visualize key financial indicators and stock trends for better insights.
 
 # Tools and Technologies:
-- Programming Language: Python 3.6
--Libraries:
--- Numpy v1.14.2: For numerical computations.
--- Pandas v0.23.4: To handle and manipulate financial datasets.
--- Pandas-datareader v0.6.0: For extracting data from various financial data sources, including IEX.
--- Matplotlib v2.10.0: For generating static, animated, and interactive visualizations of financial data.
--- Seaborn v0.8.0: For statistical data visualization.
--- Development Environment: Jupyter Notebook v5.6.0
+* Programming Language: Python 3.6
+# Libraries:
+* Numpy v1.14.2: For numerical computations.
+* Pandas v0.23.4: To handle and manipulate financial datasets.
+* Pandas-datareader v0.6.0: For extracting data from various financial data sources, including IEX.
+* Matplotlib v2.10.0: For generating static, animated, and interactive visualizations of financial data.
+* Seaborn v0.8.0: For statistical data visualization.
+* Development Environment: Jupyter Notebook v5.6.0
 
 # Data Source:
 All financial data for this project is sourced from the IEX Developer API, using pandas-datareader. The data includes real-time stock quotes, historical price data, financial fundamentals, and market actions.
 
 # Methodology:
--Data Collection: Stock data is pulled from the IEX API, including historical time-series data.
--Data Cleaning & Processing: The data is processed to handle missing values and align formats for analysis.
--Exploratory Data Analysis (EDA): Using visualizations and statistical techniques to understand stock performance over time.
--Risk Analysis: We use historical volatility and price trends to assess stock risk.
--Monte Carlo Method: A statistical approach is implemented to simulate various future price scenarios based on historical data, providing probabilistic price -predictions.
+* Data Collection: Stock data is pulled from the IEX API, including historical time-series data.
+* Data Cleaning & Processing: The data is processed to handle missing values and align formats for analysis.
+* Exploratory Data Analysis (EDA): Using visualizations and statistical techniques to understand stock performance over time.
+* Risk Analysis: We use historical volatility and price trends to assess stock risk.
+* Monte Carlo Method: A statistical approach is implemented to simulate various future price scenarios based on historical data, providing probabilistic price -predictions.
 
 # Visualization & Analysis:
 Line plots, histograms, and heatmaps are used to visualize stock trends and correlation among different stocks.
